@@ -1,0 +1,8 @@
+C:\Users\user11\Documents\progi\KeszthelySprint\KeszthelySprint\bin\Debug\KeszthelySprint.exe.config
+C:\Users\user11\Documents\progi\KeszthelySprint\KeszthelySprint\bin\Debug\KeszthelySprint.exe
+C:\Users\user11\Documents\progi\KeszthelySprint\KeszthelySprint\bin\Debug\KeszthelySprint.pdb
+C:\Users\user11\Documents\progi\KeszthelySprint\KeszthelySprint\obj\Debug\KeszthelySprint.csproj.AssemblyReference.cache
+C:\Users\user11\Documents\progi\KeszthelySprint\KeszthelySprint\obj\Debug\KeszthelySprint.csproj.SuggestedBindingRedirects.cache
+C:\Users\user11\Documents\progi\KeszthelySprint\KeszthelySprint\obj\Debug\KeszthelySprint.csproj.CoreCompileInputs.cache
+C:\Users\user11\Documents\progi\KeszthelySprint\KeszthelySprint\obj\Debug\KeszthelySprint.exe
+C:\Users\user11\Documents\progi\KeszthelySprint\KeszthelySprint\obj\Debug\KeszthelySprint.pdb
