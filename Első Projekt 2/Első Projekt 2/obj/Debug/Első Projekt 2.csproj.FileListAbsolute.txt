@@ -1,0 +1,8 @@
+C:\Users\user11\Documents\progi\Első Projekt 2\Első Projekt 2\bin\Debug\Első Projekt 2.exe.config
+C:\Users\user11\Documents\progi\Első Projekt 2\Első Projekt 2\bin\Debug\Első Projekt 2.exe
+C:\Users\user11\Documents\progi\Első Projekt 2\Első Projekt 2\bin\Debug\Első Projekt 2.pdb
+C:\Users\user11\Documents\progi\Első Projekt 2\Első Projekt 2\obj\Debug\Első Projekt 2.csproj.AssemblyReference.cache
+C:\Users\user11\Documents\progi\Első Projekt 2\Első Projekt 2\obj\Debug\Első Projekt 2.csproj.SuggestedBindingRedirects.cache
+C:\Users\user11\Documents\progi\Első Projekt 2\Első Projekt 2\obj\Debug\Első Projekt 2.csproj.CoreCompileInputs.cache
+C:\Users\user11\Documents\progi\Első Projekt 2\Első Projekt 2\obj\Debug\Első Projekt 2.exe
+C:\Users\user11\Documents\progi\Első Projekt 2\Első Projekt 2\obj\Debug\Első Projekt 2.pdb
