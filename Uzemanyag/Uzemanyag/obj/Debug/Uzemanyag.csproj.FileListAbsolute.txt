@@ -1,0 +1,8 @@
+C:\Users\user11\Documents\progi\Uzemanyag\Uzemanyag\bin\Debug\Uzemanyag.exe.config
+C:\Users\user11\Documents\progi\Uzemanyag\Uzemanyag\bin\Debug\Uzemanyag.exe
+C:\Users\user11\Documents\progi\Uzemanyag\Uzemanyag\bin\Debug\Uzemanyag.pdb
+C:\Users\user11\Documents\progi\Uzemanyag\Uzemanyag\obj\Debug\Uzemanyag.csproj.AssemblyReference.cache
+C:\Users\user11\Documents\progi\Uzemanyag\Uzemanyag\obj\Debug\Uzemanyag.csproj.SuggestedBindingRedirects.cache
+C:\Users\user11\Documents\progi\Uzemanyag\Uzemanyag\obj\Debug\Uzemanyag.csproj.CoreCompileInputs.cache
+C:\Users\user11\Documents\progi\Uzemanyag\Uzemanyag\obj\Debug\Uzemanyag.exe
+C:\Users\user11\Documents\progi\Uzemanyag\Uzemanyag\obj\Debug\Uzemanyag.pdb
