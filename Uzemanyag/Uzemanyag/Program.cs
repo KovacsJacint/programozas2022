@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using System.Reflection;
 
 namespace Uzemanyag
 {
@@ -25,6 +26,7 @@ namespace Uzemanyag
             f4();
             f5();
             f6();
+            f7();
         }
         
         void f2()
@@ -73,7 +75,29 @@ namespace Uzemanyag
         }
         void f6()
         {
+            bool volte = false;
+            for (int i = 0; i < uzemanyagar.Count; i++)
+            {
+                if (uzemanyagar[i].szokonap())
+                {
+                    volte = true;
+                    break;
+                }
+            }
+            if(volte)
+            {
+                Console.WriteLine("6.feladat: Volt változás szökőnapon!");
+            }
+            else
+            {
+                Console.WriteLine("6.feladat: Nem volt változás szökőnapon!");
+            }
+        }
+        void f7()
+        {
+            StreamWriter ir = new StreamWriter("euro.txt");
 
+            ir.Close();
         }
     }
     class adatok
@@ -82,6 +106,7 @@ namespace Uzemanyag
         public string datum;
         public int benzin;
         public int diesel;
+        public int ev, honap, nap;
 
         public adatok(string sor)
         {
@@ -93,13 +118,32 @@ namespace Uzemanyag
         }
         public int kulonbseg()
         {
-         return Math.Abs(benzin - diesel);
-          
+            return Math.Abs(benzin - diesel);
+
         }
         public bool szokonap()
         {
             string[] vag = datum.Split('.');
+            ev = Convert.ToInt32(vag[0]);
+            honap = Convert.ToInt32(vag[1]);
+            nap = Convert.ToInt32(vag[2]);
+            if (ev % 4 == 0 && honap == 2 && nap == 24)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+           
         }
+        double euro = 307.7;
+       public string ujsor()
+        {
+            return datum+";"+
+        }
+            
+           
 
     }
     
