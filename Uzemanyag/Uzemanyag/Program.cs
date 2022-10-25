@@ -27,6 +27,7 @@ namespace Uzemanyag
             f5();
             f6();
             f7();
+            f8();
         }
         
         void f2()
@@ -92,12 +93,27 @@ namespace Uzemanyag
             {
                 Console.WriteLine("6.feladat: Nem volt változás szökőnapon!");
             }
-        }
+        }   
         void f7()
         {
             StreamWriter ir = new StreamWriter("euro.txt");
-
+            for (int i = 0; i < uzemanyagar.Count; i++)
+            {
+                ir.WriteLine(uzemanyagar[i].ujsor());
+            }
             ir.Close();
+        }
+        void f8()
+        {
+            Console.Write("8. feladat: Kérem adja meg az évszámot [2011..2016]:");
+            int beker = Convert.ToInt32(Console.ReadLine());
+            while(2011>beker || 2016<beker)
+            {
+             
+                Console.Write("8. feladat: Kérem adja meg az évszámot [2011..2016]:");
+                beker = Convert.ToInt32(Console.ReadLine());
+            }
+           
         }
     }
     class adatok
@@ -134,15 +150,38 @@ namespace Uzemanyag
             else
             {
                 return false;
-            }
+            } 
            
         }
         double euro = 307.7;
        public string ujsor()
         {
-            return datum+";"+
+            return datum + ";" +Math.Round( benzin / euro,2)+";"+ Math.Round(diesel / euro,2);
         }
-            
+            public int Evnapja()
+           {
+            string[] vag = datum.Split('.');
+            ev = Convert.ToInt32(vag[0]);
+            honap = Convert.ToInt32(vag[1]);
+            nap = Convert.ToInt32(vag[2]);
+            int[]napokSzama = { 31,28,31,30,31,30,31,31,30,31,30,31};
+            if (ev % 4 == 0)
+            {
+                napokSzama[1] = 29;              
+            }
+            int napdarab = 0;
+            for (int i = 0; i < honap; i++)
+            {
+                napdarab += napokSzama[i];  
+            }
+            napdarab += nap;
+            return napdarab;
+
+        }
+        public int napKulonbseg(int masikNapszam)
+        {
+
+        }
            
 
     }

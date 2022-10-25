@@ -1,0 +1,8 @@
+C:\Users\user11\Documents\progi\cbradio2\cbradio2\bin\Debug\cbradio2.exe.config
+C:\Users\user11\Documents\progi\cbradio2\cbradio2\bin\Debug\cbradio2.exe
+C:\Users\user11\Documents\progi\cbradio2\cbradio2\bin\Debug\cbradio2.pdb
+C:\Users\user11\Documents\progi\cbradio2\cbradio2\obj\Debug\cbradio2.csproj.AssemblyReference.cache
+C:\Users\user11\Documents\progi\cbradio2\cbradio2\obj\Debug\cbradio2.csproj.SuggestedBindingRedirects.cache
+C:\Users\user11\Documents\progi\cbradio2\cbradio2\obj\Debug\cbradio2.csproj.CoreCompileInputs.cache
+C:\Users\user11\Documents\progi\cbradio2\cbradio2\obj\Debug\cbradio2.exe
+C:\Users\user11\Documents\progi\cbradio2\cbradio2\obj\Debug\cbradio2.pdb
