@@ -22,6 +22,9 @@ namespace cbradio2
             f2();
             f3();
             f4();
+            f5();
+            f7();
+            f8();
         }
         void f2()
         {
@@ -44,8 +47,51 @@ namespace cbradio2
                 {
                     adasdarab++;
                 }
+                
             }
-            Console.WriteLine("4.feladat: volt négy adást indító sofőr.",adasdarab);
+            Console.WriteLine("4.feladat: volt négy adást indító sofőr.", adasdarab);
+
+        }
+        void f5()
+        {
+
+            int adasok = 0;
+            Console.Write("5.feladat: Kérek egy nevet: ");
+           string nev= Console.ReadLine();         
+            for (int i = 0; i < radio.Count; i++)
+            {
+                if (radio[i].Nev==nev)
+                {
+                    adasok += radio[i].Adasdb;
+                }            
+            }
+            if (adasok==0)
+            {
+                Console.WriteLine("Nincs ilyen nevű sofőr!");
+            }
+            else
+            {
+                Console.WriteLine("\t {0} {1}x használta a CB-rádiót",nev,adasok);  
+            }
+        }
+        void f7()
+        {
+            StreamWriter ir = new StreamWriter("cb2.txt");
+            ir.WriteLine("Kezdes;Nev;Adasdb");
+            for (int i = 0; i < radio.Count; i++)
+            {
+                ir.WriteLine("{0};{1};{2}", radio[i].AtszamolPercre(), radio[i].Nev, radio[i].Adasdb);
+            }
+            ir.Close();
+
+        }
+        void f8()
+        {
+            Console.WriteLine("8.feladat: Sofőrök száma: {0}");
+            for (int i = 0; i < radio.Count; i++)
+            {
+
+            }
         }
     }
 
@@ -61,6 +107,12 @@ namespace cbradio2
             Adasdb = Convert.ToInt32(vag[2]);
             Nev = vag[3];
         }
-        
+
+        public  int AtszamolPercre()
+        {
+            
+            return (Ora * 60 + Perc);
+        }
+
     }
 }
